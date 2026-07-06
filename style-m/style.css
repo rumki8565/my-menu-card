@@ -1,6 +1,56 @@
 nav {
   display: flex;
-  gap: 1rem;
+  gap: 3rem;
   padding: 1rem;
-  background-color: #f03d3d;
+  background-color: #589f85;
+  margin-bottom: 1rem;
+  justify-content: right;
+}
+
+#divide {
+}
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  color: #080a0a;
+  margin-bottom: 1rem;
+  font-family: "Courier New", Courier, monospace;
+}
+
+#logo {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: 300px;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #080a0a;
+  margin-bottom: 1rem;
+  font-family: "dancing script", cursive;
+}
+
+ol,
+ul {
+  list-style: none;
+  padding: 5px;
+}
+
+#soup {
+  display: block;
+  margin: 0px auto;
+  max-width: 100%;
+  height: 150px;
+  padding: 20px;
+  box-shadow: 1px 1px 5px #bcffff;
 }
